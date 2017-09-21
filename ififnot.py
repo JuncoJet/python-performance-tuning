@@ -32,7 +32,7 @@ t1=timeit.Timer("test1()","from __main__ import test1")
 print '1',t1.timeit(10)#修改执行次数
 t2=timeit.Timer("test2()","from __main__ import test2")
 print '2',t2.timeit(10)#修改执行次数
-t1=timeit.Timer("test3()","from __main__ import test3")
-print '3',t1.timeit(10)#修改执行次数
-t2=timeit.Timer("test4()","from __main__ import test4")
-print '4',t2.timeit(10)#修改执行次数
+t3=timeit.Timer("test3()","from __main__ import test3")
+print '3',t3.timeit(10)#修改执行次数
+t4=timeit.Timer("test4()","from __main__ import test4")
+print '4',t4.timeit(10)#修改执行次数

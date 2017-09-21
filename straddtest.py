@@ -31,7 +31,7 @@ def test10():
 def test2():
     global str1,times
     x=''
-    for i in xrange(1000*100):
+    for i in xrange(times):
         x="%s%s"%(x,str1)
     return x
 
@@ -70,7 +70,7 @@ def test9():
         x=''.join([x,str1+str1])
     return x
 
-times=1000#修改累加次数
+times=10000#修改累加次数
 str1="abcd"*100#修改字符串长度
 t1=timeit.Timer("test1()","from __main__ import test1")
 t2=timeit.Timer("test2()","from __main__ import test2")
