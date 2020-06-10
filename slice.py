@@ -21,4 +21,4 @@ for i in range(10):
     t2=timeit.Timer("test2()","from __main__ import test2")
     print '2',t2.timeit(10000)#修改执行次数
     t3=timeit.Timer("test3()","from __main__ import test3")
-    print '2',t3.timeit(10000)#修改执行次数
+    print '3',t3.timeit(10000)#修改执行次数
